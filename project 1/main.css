@@ -1,0 +1,109 @@
+header a {
+
+  text-decoration: white;
+}
+
+a:hover {
+
+	background-color: red;
+
+}
+.panel {
+  text-align: center;
+  min-height: 100px;
+  margin-bottom: 5px;
+  color: #000;
+ float:left;
+}
+
+.one {
+  background-color: red;
+  width: 1000px;
+  
+
+}
+.two{background-color: blue;
+  width: 1000px;
+
+
+}
+.three{background-color: orange;
+  width: 1000px;
+
+}
+.four{
+
+  background-color: green;
+  width: 1000px;
+}
+.five{
+  background-color: aqua;
+  width: 1000px;
+}
+.six {
+  background-color: red;
+  width: 1000px;
+  
+
+}
+.seven{background-color: blue;
+  width: 1000px;
+  
+
+
+}
+.eight{background-color: orange;
+  width: 1000px;
+
+}
+.nine{
+
+  background-color: green;
+  width: 1000px;
+}
+.ten{
+  background-color: aqua;
+  width: 1000px;
+}
+.eleven {
+  background-color: red;
+  width: 1000px;
+  
+
+}
+.twelve{background-color: blue;
+  width: 1000px;
+  
+
+}
+.thirteen{background-color: orange;
+  width: 1000px;
+
+}
+.fourteen{
+
+  background-color: green;
+  width: 1000px;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+   
+
+
+
+
