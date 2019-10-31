@@ -1,0 +1,357 @@
+
+.center{
+    /*width: 100%;
+    height: 600px;*/
+  /*  display: flex;*/
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+  background-color: #3333ff;
+  /*position: relative;*/
+ color: white;
+max-width:1200px;
+margin:0 auto;
+overflow: auto;
+}
+
+ .One{
+width:30%;
+float:left;
+margin-left:3.33%;
+
+}
+.two{
+width:30%;
+float:left;
+margin-left:3.33%;
+}
+.three{
+width:30%;
+float:left;
+margin-left:3.33%;
+
+}
+
+
+/*.center{
+max-width:1200px;
+margin:0 auto;
+overflow: auto;
+}
+*/
+
+/* .values{
+width:30%;
+float:left;
+margin-left:3.33%;
+
+}*/
+
+/*min-height:600px;*/
+
+.card{
+    position: relative;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    box-sizing: border-box;
+    transition: 0.5s;
+   
+
+}
+.card span{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #67a3ff;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+html{
+	background-color: #3333ff;
+}
+.card:hover span{
+    opacity:1;
+}
+.card:hover{
+    background: #e5ffff;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+.card .fa{
+    font-size: 40px;
+}
+.card h3{
+    font-size: 20px;
+}
+.card p{
+    font-size: 17px;
+}
+html,body,header,.content{
+	height: 100%;
+
+}
+body{
+	margin: 0 auto;
+	font-family: "Montserra", Arial;
+
+}
+header .content{
+	overflow: hidden;
+
+}
+nav{
+	padding: 20px 15%;
+}
+.brand{
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+	margin-top: 15px;
+	font-family: "Cookie";
+}
+
+
+
+
+}
+nav>ul{
+	list-style-type:none;
+	padding: 0;
+	float: right;
+
+}
+
+nav>ul>li{
+	
+	padding: 10px 15px;
+	float: right;
+	list-style: none;
+}
+a,nav>ul>li ,p{
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+}
+p{
+	font-weight:lighter; 
+	line-height: 18px;
+	text-align: justify;
+}
+
+header, .content{
+	position: relative;
+	color: #fff;
+
+}
+a{
+	color: #fff;
+	border: 1px solid #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 50px;
+	margin-top: 10px;
+
+
+}
+
+
+.left{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	width:36%;
+	left: 8%;
+
+}
+.right{
+	position: absolute;
+	bottom: 40px;
+	width: 50%;
+	right:0; 
+
+}
+/*.right>img{
+	width: 100%;*/
+
+}
+.brand>i{
+	margin-left: 8px;
+
+}
+.social-icons{
+	position: absolute;
+	top: 30%;
+	left: 20px;
+	width: 35px;
+}
+.social-icons>ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+
+}
+
+.social-icons>ul>li{
+	margin-top: 10px;
+
+}
+.social-icons>ul>li>i{
+	padding: 10px;
+
+}
+
+.pekee{
+	font-family: "Fredoka One";
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.background{
+	position: absolute;
+	height: 100%;
+	width: 150%;
+	top: 0;
+	left: 0;
+
+	background: linear-gradient(to right, #E91E63  0%, #E91E63 20%,#F44336 70%);
+	transform: rotateZ(-10deg);
+	transform-origin: bottom left;
+	box-shadow: 0 0 10px #000;
+}
+
+
+
+
+.clear{
+	clear: both;
+
+}
+/*.body{
+	width: 120
+}*/
+
+.center{
+max-width:1200px;
+margin:0 auto;
+overflow: auto;
+}
+
+
+
+
+.info{
+background-color:red;
+
+}
+
+
+
+/*start contact me*/
+
+
+.contacts{
+background-color:#0f0f0a;
+min-height:200px;
+color: white;
+
+
+}
+.mee{
+width:30%;
+float:left;
+}
+.forms{
+width:60%;
+float:right;
+margin-top:4%;
+}
+.name{
+
+margin-left:5%;
+}
+.email{
+margin-left:5%;
+margin-top:5%;
+}
+.address{
+margin-left:6%;
+margin-top:5%; 
+
+}
+.address a{
+font-size:14px;
+border:1px solid green;
+color:green;
+text-align:center;
+padding:10px 20px;
+display:table;
+text-decoration:none;
+margin-top:10px;
+margin-left: 18%;
+
+
+
+}
+
+/*.contact-us{
+    color: white;
+    position: relative;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    box-sizing: border-box;
+}
+.aboutwo {
+	 color: white;
+    position: relative;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+
+}
+
+
+.all-abt{
+	display: flex;
+}
+*/
+
+/*footer{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h2{
+    position: absolute;
+    top: 90px;
+    padding-bottom: 10px;
+    padding-left: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}*/
+
+.name input{
+padding: 5px 100px;
+}
+.email input{
+padding: 5px 100px;
+}
+.address input{
+padding:70px 100px;
+}
